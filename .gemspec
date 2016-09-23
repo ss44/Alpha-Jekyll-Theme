@@ -5,6 +5,6 @@ Gem::Specification.new do |s|
   s.summary     = "Nice Jekyll Theme!"
   s.authors     = ["Ruby Coder"]
   s.email       = 'rubycoder@example.com'
-  s.files       =  Dir.glob("_includes") + Dir.glob('_layouts') + Dir.glob('assets')
+  s.files       =  Dir.glob("{_includes, _layouts, assets}/**/*")
   s.homepage    = 'https://rubygems.org/gems/example'
 end
